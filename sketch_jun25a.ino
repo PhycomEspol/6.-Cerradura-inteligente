@@ -9,8 +9,8 @@ int cerradura = 5;//Se establecen los pines de salida
 int alarma = 6;
 MFRC522 mfrc522(SS,RST);
 byte LecturaUID[4]; 				
-byte Usuario1[4]= {0x90, 0x0E, 0xE4, 0xA4} ;  //Se definen las trajetas que el sistema admite  
-byte Usuario2[4]= {0x06, 0x76, 0x25, 0xD9} ;  
+byte Usuario1[4]= {0x0C, 0x97, 0xB0, 0xCC} ;  //Se definen las tarjetas que el sistema admite //Tarjeta
+byte Usuario2[4]= {0xE3, 0x22, 0x5E, 0xA2} ; //Llavero
 void setup() {
   pinMode(cerradura,OUTPUT);
   digitalWrite(cerradura,LOW);
