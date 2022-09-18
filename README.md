@@ -23,7 +23,7 @@ Este proyecto trata de una cerradura inteligente la cual permite el paso, depend
 3. **Acceso Concedido**: Si el código de la tarjeta leida por el sensor es igual a un código en el sistema se presenta esta sección, dando como salida la activación del transistor y de la cerradura. 
 4. **Acceso denegado**: Si el código de la tarjeta leida por el sensor no es igual a un código en el sistema se presenta esta sección, dando como salida la activación de ub buzzer a modo de alarma, indicando que hay un posible intruso y que la tarjeta no se encuentra en la base de datos. 
 
-<a href="url"><img src="Diagrama_Esquematico.jpeg"  height="400" width="700"></a>
+<img src="Diagrama_Esquematico.jpeg"  height="400" width="700">
 
 ### **Implemetación**
 1. Se programa el Arduino de tal forma que sea capaz de leer tarjetas mediante el sensor RFID, se compara dicha lectura con los códigos de las tarjetas registradas y se crea las salidas, activación de la cerradura o del buzzer(alarma), según el caso que se presente, si la tarjeta está o no en el sistema.
